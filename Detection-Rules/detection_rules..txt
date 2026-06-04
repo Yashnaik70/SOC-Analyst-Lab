@@ -1,0 +1,21 @@
+Rule ID: 001
+
+Rule Name:
+Unknown Device Accessing Server
+
+Condition:
+Unknown Device -> Server
+
+Action:
+Generate Alert
+------------------------------------------------------------------------
+Rule ID: 002
+
+Rule Name:
+Network Scanning Detection
+
+Condition:
+One Device Contacts Multiple Systems
+
+Action:
+Generate High Priority Alert
