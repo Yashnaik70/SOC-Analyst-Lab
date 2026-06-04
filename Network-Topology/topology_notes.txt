@@ -1,0 +1,63 @@
+SOC ANALYST LAB - NETWORK TOPOLOGY
+
+Project Name:
+SOC Analyst Home Lab using Cisco Packet Tracer
+
+Network Overview:
+A small enterprise network designed for SOC Analyst training and cybersecurity monitoring.
+
+Devices Used:
+1. Router0 (Cisco 1941)
+2. Switch0 (Cisco 2960)
+3. PC0 - Employee Workstation
+4. PC1 - Employee Workstation
+5. Server0 - Company Server
+6. Unknown_Device - Suspicious Device
+
+IP Addressing:
+
+Router0
+- Connected to Switch0
+
+PC0
+- IP Address: 192.168.1.10
+- Role: Employee Workstation
+
+PC1
+- IP Address: 192.168.1.11
+- Role: Employee Workstation
+
+Server0
+- IP Address: 192.168.1.100
+- Role: Company Server
+
+Unknown_Device
+- IP Address: 192.168.1.50
+- Role: Suspicious Device for SOC Investigation
+
+Network Connections:
+
+PC0 --> Switch0
+PC1 --> Switch0
+Server0 --> Switch0
+Unknown_Device --> Switch0
+Switch0 --> Router0
+
+Security Use Cases:
+
+1. Device Discovery
+2. Asset Inventory Management
+3. Unknown Device Detection
+4. Network Traffic Monitoring
+5. Incident Investigation
+6. Detection Rule Creation
+
+Current Lab Status:
+- Physical Connectivity Configured
+- IP Addressing Configured
+- Successful Ping Testing Completed
+- Unknown Device Investigation Completed
+- Initial Detection Rules Created
+
+Created By:
+Yash Naik
