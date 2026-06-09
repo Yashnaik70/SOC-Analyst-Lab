@@ -199,9 +199,7 @@ SOC-Analyst-Lab
 * Brute Force Detection
 * Network Scanning Detection
 * Malware Traffic Simulation
-
 ---
-
 ## 👨‍💻 Author
 
 **Yash Naik**
